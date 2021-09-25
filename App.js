@@ -1,5 +1,6 @@
 import * as React from "react";
 import { View, Text } from "react-native";
+import Home from "./screens/Home";
 
 export default function App() {
   return (
@@ -10,7 +11,7 @@ export default function App() {
         alignItems: "center",
       }}
     >
-      <Text>Universal React with Expo</Text>
+      <Home />
     </View>
   );
 }
